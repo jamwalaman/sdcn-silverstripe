@@ -6,3 +6,4 @@
 /public/_resources/
 /.graphql-generated/
 /public/_graphql/
+/themes/bootstrap/node_modules/
