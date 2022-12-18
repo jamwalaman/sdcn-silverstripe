@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --sdcn-blue: #8ebeca;
+}
+
+.header {
+    background-color: var(--sdcn-blue);
+}
+
+.header .primary li a {
+    color: #082e54;
+}
+
