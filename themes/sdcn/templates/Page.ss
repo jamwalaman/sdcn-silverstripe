@@ -28,7 +28,7 @@ Change it, enhance it and most importantly enjoy it!
 <% include Header %>
 <div class="main" role="main">
 	<div class="inner typography line">
-		$Layout
+		$ElementalArea
 	</div>
 </div>
 <% include Footer %>
