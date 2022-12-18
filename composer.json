@@ -8,7 +8,6 @@
         "silverstripe/recipe-cms": "~4.11.0@stable",
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "~4.7.0@stable",
-        "ilateral/silverstripe-bootstrap-4": "^1.4",
         "dnadesign/silverstripe-elemental": "^4.9",
         "silverstripe/elemental-fileblock": "^2.4",
         "silverstripe/elemental-bannerblock": "^2.5"
