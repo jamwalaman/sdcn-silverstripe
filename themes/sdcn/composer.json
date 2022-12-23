@@ -1,5 +1,5 @@
 {
-    "name": "sdcn-theme",
+    "name": "ajamwaldesign/sdcn-theme",
     "description": "SDCN Theme",
     "type": "silverstripe-theme",
     "keywords": ["silverstripe", "theme"],
@@ -18,7 +18,8 @@
 			"dev-master": "3.2.x-dev"
 		},
         "expose": [
-            "dist"
+            "dist",
+            "images"
         ]
 	}
 }
