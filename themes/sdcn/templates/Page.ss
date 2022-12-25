@@ -19,7 +19,7 @@
 	<link rel="icon" type="image/png" href="$resourceURL('themes/sdcn/images/favicon.ico')">
 </head>
 <body class="$ClassName.ShortName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
-<div class="headerinfo">$SiteConfig.HeaderContent</div>
+<% if $SiteConfig.HeaderContent %> <div class="headerinfo">$SiteConfig.HeaderContent</div> <% end_if %>
 <% include Header %>
 <div class="main" role="main">
 	<div class="inner typography line">
