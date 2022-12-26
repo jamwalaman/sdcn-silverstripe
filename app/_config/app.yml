@@ -1,3 +1,4 @@
 Silverstripe\SiteConfig\SiteConfig:
   extensions:
     - InfoHeader
+    - InfoFooter

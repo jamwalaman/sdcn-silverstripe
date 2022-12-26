@@ -1,9 +1,27 @@
-<footer class="footer" role="contentinfo">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<div class="left">
-				<a href="$BaseHref" class="brand" rel="home">$SiteConfig.Title</a>
-				<span class="arrow">&rarr;</span> <% include Navigation %></div>
+<footer>
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-md-6">$SiteConfig.FooterContent</div>
+			<div class="col-md-6">
+				<ul>
+				<% loop $Menu(1) %>
+					<% if not $Children %>
+					<li><a href="$Link">$MenuTitle</a></li>
+					<% end_if %>
+					<% if $Children %>
+							<% with $Level(1) %>
+							<li class="subpage-title">$MenuTitle</li>
+							<ul class="subpage-link">
+								<% loop $Children %>
+								<li><a href="$Link">$MenuTitle</a></li>
+								<% end_loop %>
+							</ul>
+						<% end_with %>
+					<% end_if %>
+				<% end_loop %>
+				</ul>
+			</div>
 		</div>
+		<p>&copy; $Now.Year $SiteConfig.Title</p>
 	</div>
 </footer>

@@ -4,6 +4,13 @@
     --sdcn-blue: #8ebeca;
 }
 
+.headerinfo {
+    text-align: center;
+}
+.headerinfo p {
+    margin-top: 1rem;;
+}
+
 .header, .navbg {
     background-color: var(--sdcn-blue);
 }
@@ -17,6 +24,18 @@
     margin-bottom: 1rem;;
 }
 
-.nav-link {
+.nav-link, footer, footer a {
     color: #ffffff;
+}
+
+footer {
+    background-color: #414042;
+}
+
+footer a {
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #b3b3b3;
 }

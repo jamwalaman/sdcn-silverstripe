@@ -9,25 +9,25 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <% loop $Menu(1) %>
-              <li class="nav-item">
-              <% if not $Children %>
-                <a href="$Link" class="nav-link <% if $isCurrent %>active<% end_if%>" aria-current="page">$MenuTitle</a>
-              <% end_if %>
+            <% if not $Children %>
+              <li class="nav-item"><a href="$Link" class="nav-link <% if $isCurrent %>active<% end_if %>" aria-current="page">$MenuTitle</a></li>
+            <% end_if %>
+            <% if $Children %>
+              <% with $Level(1) %>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">$MenuTitle</a>
+                  <ul class="dropdown-menu">
+                    <% loop $Children %>
+                    <li><a class="dropdown-item" href="$Link">$MenuTitle</a></li>
+                    <% end_loop %>
+                  </ul>
               </li>
-              <% if $Children %>
-                <% with $Level(1) %>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">$MenuTitle</a>
-                    <ul class="dropdown-menu">
-                      <% loop $Children %>
-                      <li><a class="dropdown-item" href="$Link">$MenuTitle</a></li>
-                      <% end_loop %>
-                    </ul>
-                  </li>
-                <% end_with %>
-              <% end_if %>
+              <% end_with %>
+            <% end_if %>
           <% end_loop %>
+
         </ul>
       </div>
     </div>
