@@ -4,7 +4,7 @@
     --sdcn-blue: #8ebeca;
 }
 
-.header {
+.header, .navbg {
     background-color: var(--sdcn-blue);
 }
 
@@ -15,4 +15,8 @@
 .svg-logo {
     width: 7rem;
     margin-bottom: 1rem;;
+}
+
+.nav-link {
+    color: #ffffff;
 }

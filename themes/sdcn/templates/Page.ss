@@ -20,7 +20,7 @@
 </head>
 <body class="$ClassName.ShortName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 <% if $SiteConfig.HeaderContent %> <div class="headerinfo">$SiteConfig.HeaderContent</div> <% end_if %>
-<% include Header %>
+<% include HeaderNav %>
 <div class="main" role="main">
 	<div class="inner typography line">
 		$ElementalArea
