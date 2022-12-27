@@ -1,6 +1,6 @@
 <% if $isSection %>
-    <p>In this section</p>
     <% if $Children %>
+        <p>In this section</p>
         <ul>
             <% loop $Children %>
             <li><a href="$Link">$MenuTitle</a></li>
