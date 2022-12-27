@@ -39,3 +39,31 @@ footer a {
 footer a:hover {
     color: #b3b3b3;
 }
+
+.footer-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.footer-logos img.dcc-logo {
+    width: 270px;
+}
+.footer-logos img.cogs-logo {
+    width: 140px;
+    height: 67.78px;
+    margin: 50px 0;
+}
+footer .footer-logos img.lotto-nz-logo {
+    width: 200px;
+}
+
+@media (min-width: 700px) {
+    .footer-logos {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-logos img.cogs-logo {
+        margin: 0 50px 0 0;
+    }
+}
