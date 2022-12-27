@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-6">$SiteConfig.FooterContent</div>
 			<div class="col-md-6">
-				<ul>
+				<ul class="footer-nav">
 				<% loop $Menu(1) %>
 					<% if not $Children %>
 					<li><a href="$Link">$MenuTitle</a></li>

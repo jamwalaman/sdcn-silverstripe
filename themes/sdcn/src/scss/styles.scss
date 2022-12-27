@@ -67,3 +67,9 @@ footer .footer-logos img.lotto-nz-logo {
         margin: 0 50px 0 0;
     }
 }
+@media (max-width: 767px) {
+    ul.footer-nav {
+        border-top: .1rem solid #e1e1e3;
+        padding-top: 0.8rem;
+    }
+}
