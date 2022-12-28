@@ -1,5 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
 
+::-moz-selection {
+    color: #ffffff;
+    background: #000000;
+  }
+  
+  ::selection {
+    color: #ffffff;
+    background: #000000;
+  }
+
 :root {
     --sdcn-blue: #8ebeca;
 }
