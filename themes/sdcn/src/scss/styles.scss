@@ -48,13 +48,23 @@
     justify-content: flex-end;
 }
 
+/* sdcn-home-banner - for just home page */
 .silverstripe__elementalbannerblock__block__bannerblock.sdcn-home-banner {
     height: 60vh;
 }
+.sdcn-home-banner .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
 
+/* Banner for all pages */
 .sdcn-banner {
     height: 100%;
     width: 100%;
+    color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
