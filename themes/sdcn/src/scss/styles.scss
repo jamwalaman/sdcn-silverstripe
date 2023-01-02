@@ -8,22 +8,25 @@
     color: #ffffff;
     background: #000000;
   }
-  
-  ::selection {
+::selection {
     color: #ffffff;
     background: #000000;
-  }
+}
 
 .headerinfo {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #dcebef;
 }
 .headerinfo p {
     margin-bottom: 0;
     padding: 1rem 0;
 }
 
-.header, .navbg {
+.navbg, .content-main {
+    background-color: #ffffff;
+}
+
+.header {
     background-color: var(--sdcn-blue);
 }
 
@@ -36,8 +39,8 @@
     margin-bottom: 1rem;;
 }
 
-.nav-link, footer, footer a {
-    color: #ffffff;
+.nav-link {
+    color: #082e54;
 }
 
 .navbar-nav {
@@ -45,10 +48,24 @@
     justify-content: flex-end;
 }
 
+.silverstripe__elementalbannerblock__block__bannerblock.sdcn-home-banner {
+    height: 60vh;
+}
+
+.sdcn-banner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 footer, body {
     background-color: #414042;
 }
-
+footer, footer a {
+    color: #ffffff;
+}
 footer a {
     transition: 0.3s;
 }

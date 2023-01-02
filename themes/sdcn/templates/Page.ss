@@ -22,10 +22,8 @@
 <% if $SiteConfig.HeaderContent %> <div class="headerinfo">$SiteConfig.HeaderContent</div> <% end_if %>
 <% include HeaderNav %>
 <% include LinksForSection %>
-<div class="main" role="main">
-	<div class="inner typography line">
-		$ElementalArea
-	</div>
+<div class="content-main">
+$ElementalArea
 </div>
 <% include Footer %>
 
