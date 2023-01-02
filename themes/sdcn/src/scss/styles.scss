@@ -2,6 +2,7 @@
 
 :root {
     --sdcn-blue: #8ebeca;
+    --sdcn-black: #414042;
 }
 
 ::-moz-selection {
@@ -58,6 +59,10 @@
     align-items: center;
     justify-content: center;
     height: 60vh;
+}
+.sdcn-home-banner .banner-element__call-to-action {
+    background: var(--sdcn-black);
+    border-radius: 2rem;
 }
 
 /* Banner for all pages */
