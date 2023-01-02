@@ -21,8 +21,8 @@
 <body class="$ClassName.ShortName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 <% if $SiteConfig.HeaderContent %> <div class="headerinfo">$SiteConfig.HeaderContent</div> <% end_if %>
 <% include HeaderNav %>
-<% include LinksForSection %>
 <div class="content-main">
+<% include LinksForSection %>
 $ElementalArea
 </div>
 <% include Footer %>
