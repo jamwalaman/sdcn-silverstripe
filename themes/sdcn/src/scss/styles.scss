@@ -75,6 +75,10 @@
     background-size: cover;
 }
 
+input:invalid {
+    box-shadow: none;
+}
+
 footer, body {
     background-color: #414042;
 }
