@@ -12,7 +12,8 @@
         "silverstripe/elemental-fileblock": "^2.4",
         "silverstripe/elemental-bannerblock": "^2.5",
         "dynamic/silverstripe-elemental-features": "^3.0",
-        "dnadesign/silverstripe-elemental-list": "^1.2"
+        "dnadesign/silverstripe-elemental-list": "^1.2",
+        "dnadesign/silverstripe-elemental-userforms": "^3.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
