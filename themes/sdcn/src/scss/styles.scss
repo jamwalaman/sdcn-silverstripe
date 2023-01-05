@@ -75,10 +75,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     height: 60vh;
 }
-.sdcn-home-banner .banner-element__call-to-action {
-    background: var(--sdcn-black);
-    border-radius: 2rem;
-}
 
 /* Banner for all pages */
 .sdcn-banner {
@@ -93,8 +89,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 
+/* Forms */
 input:invalid {
     box-shadow: none;
+}
+.sdcn-home-banner .banner-element__call-to-action,
+input[type="submit"]:hover, .Actions .action:hover,
+.sdcn-form input[type="submit"] {
+    background: var(--sdcn-black);
+    border-radius: 2rem;
+}
+
+/* Only for subscribe form on home */
+body.HomePage .userform {
+    display: flex;
 }
 
 footer, body {
