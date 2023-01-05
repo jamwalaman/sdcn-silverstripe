@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.content-main ul li {
+    list-style-type: disc;
+}
+
 .headerinfo {
     text-align: center;
     background-color: #dcebef;
@@ -84,6 +88,9 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.sdcn-banner h1 {
+    color: #ffffff;
 }
 
 input:invalid {
