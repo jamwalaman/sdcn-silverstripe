@@ -101,7 +101,17 @@ input[type="submit"]:hover, .Actions .action:hover,
 }
 
 /* Only for subscribe form on home */
+body.HomePage h2 {
+    text-align: center;
+}
 body.HomePage .userform {
+    display: flex;
+    justify-content: center;
+}
+body.HomePage .userform .left {
+    display: none;
+}
+body.HomePage div.field {
     display: flex;
 }
 
@@ -114,11 +124,13 @@ footer, footer a {
 footer a {
     transition: 0.3s;
 }
-
 footer a:hover {
     color: #b3b3b3;
 }
-
+ul.footer-nav {
+    border-top: .1rem solid #e1e1e3;
+    padding-top: 0.8rem;
+}
 .footer-logos {
     display: flex;
     flex-direction: column;
@@ -137,18 +149,15 @@ footer .footer-logos img.lotto-nz-logo {
     width: 200px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
+    ul.footer-nav {
+        border-top: none;
+        padding-top: 0;
+    }
     .footer-logos {
-        display: flex;
         flex-direction: row;
     }
     .footer-logos img.cogs-logo {
         margin: 0 50px 0 0;
-    }
-}
-@media (max-width: 767px) {
-    ul.footer-nav {
-        border-top: .1rem solid #e1e1e3;
-        padding-top: 0.8rem;
     }
 }
