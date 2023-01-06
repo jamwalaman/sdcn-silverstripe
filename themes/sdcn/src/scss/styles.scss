@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* sdcn-home-banner - for just home page */
-.silverstripe__elementalbannerblock__block__bannerblock.sdcn-home-banner {
+body.HomePage .silverstripe__elementalbannerblock__block__bannerblock {
     height: 60vh;
 }
-.sdcn-home-banner .col {
+body.HomePage .silverstripe__elementalbannerblock__block__bannerblock .col {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 input:invalid {
     box-shadow: none;
 }
-.sdcn-home-banner .banner-element__call-to-action,
+body.HomePage .banner-element__call-to-action,
 input[type="submit"]:hover, .Actions .action:hover,
 .sdcn-form input[type="submit"] {
     background: var(--sdcn-black);
