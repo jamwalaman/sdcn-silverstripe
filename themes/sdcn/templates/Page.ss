@@ -23,8 +23,8 @@
 <% if $SiteConfig.HeaderContent %> <div class="headerinfo">$SiteConfig.HeaderContent</div> <% end_if %>
 <% include HeaderNav %>
 <div class="content-main">
-<% include LinksForSection %>
-$ElementalArea
+	<% include LinksForSection %>
+	$ElementalArea
 </div>
 <% include Footer %>
 

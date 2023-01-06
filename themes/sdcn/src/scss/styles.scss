@@ -100,6 +100,20 @@ input[type="submit"]:hover, .Actions .action:hover,
     border-radius: 2rem;
 }
 
+.sdcn-form .requiredField.error {
+    border-color: #e80000;
+}
+.sdcn-form form .error {
+    background-color: transparent;
+    border-color: transparent;
+}
+.sdcn-form form .message {
+    padding: 5px 20px;
+}
+input[type="submit"], .Actions .action {
+    font-size: 1rem;
+}
+
 /* Only for subscribe form on home */
 body.HomePage h2 {
     text-align: center;
@@ -107,14 +121,24 @@ body.HomePage h2 {
 body.HomePage .userform {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 body.HomePage .userform .left {
     display: none;
 }
-body.HomePage div.field {
+body.HomePage div.field.form-step {
     display: flex;
+    flex-direction: column;
 }
-
+body.HomePage form input.text {
+    padding: 0.7rem 1.8rem;
+    font-size: 1.1rem;
+    border-radius: 3rem;
+    max-width: 700px;
+}
+body.HomePage .Actions .action {
+    padding: 0.7rem 1.8rem;
+}
 footer, body {
     background-color: #414042;
 }
@@ -154,7 +178,17 @@ footer .footer-logos img.lotto-nz-logo {
         border-top: none;
         padding-top: 0;
     }
-    .footer-logos {
+    body.HomePage .btn-toolbar {
+        display: block;
+        margin-top: 12px;
+    }
+    body.HomePage .form-step div.field {
+        margin: 10px 3% 15px 0;
+    }
+    body.HomePage .userform {
+        justify-content: center;
+    }
+    .footer-logos, body.HomePage .userform, body.HomePage div.field.form-step {
         flex-direction: row;
     }
     .footer-logos img.cogs-logo {
