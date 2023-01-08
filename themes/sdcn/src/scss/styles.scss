@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .svg-logo {
-    width: 7rem;
+    width: 6rem;
     margin-bottom: 1rem;;
 }
 
@@ -77,6 +77,18 @@ body.HomePage .silverstripe__elementalbannerblock__block__bannerblock .col {
 }
 
 /* Banner for all pages */
+body.Page .silverstripe__elementalbannerblock__block__bannerblock {
+    height: 310px;
+}
+body.Page .silverstripe__elementalbannerblock__block__bannerblock .col {
+    display: flex;
+    align-items: center;
+    height: 310px;
+}
+body.Page .sdcn-banner h1 {
+    background-color: var(--sdcn-blue);
+    padding: 1rem;
+}
 .sdcn-banner {
     height: 100%;
     width: 100%;
