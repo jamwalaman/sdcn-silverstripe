@@ -90,7 +90,7 @@ body.HomePage .silverstripe__elementalbannerblock__block__bannerblock .col {
 }
 
 /* Forms */
-input:invalid {
+input:invalid, textarea:invalid {
     box-shadow: none;
 }
 body.HomePage .banner-element__call-to-action,
@@ -99,7 +99,6 @@ input[type="submit"]:hover, .Actions .action:hover,
     background: var(--sdcn-black);
     border-radius: 2rem;
 }
-
 .sdcn-form .requiredField.error {
     border-color: #e80000;
 }
@@ -139,6 +138,7 @@ body.HomePage form input.text {
 body.HomePage .Actions .action {
     padding: 0.7rem 1.8rem;
 }
+
 footer, body {
     background-color: #414042;
 }

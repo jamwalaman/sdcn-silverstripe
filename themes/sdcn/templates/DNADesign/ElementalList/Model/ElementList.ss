@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container py-5">
     <% if $ShowTitle %>
         <h2 class="list-element__title">$Title</h2>
     <% end_if %>

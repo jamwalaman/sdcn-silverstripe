@@ -33,7 +33,7 @@ namespace {
             Requirements::css('themes/simple/css/typography.css');
             Requirements::css('themes/simple/css/form.css');
             Requirements::css('themes/simple/css/layout.css');
-            Requirements::css('themes/sdcn/dist/main.aead176a2372963bb0f8.css');
+            Requirements::css('themes/sdcn/dist/main.68b878a700ebab73bf34.css');
 
             Requirements::javascript('themes/sdcn/dist/main-dist-0.js');
         }
