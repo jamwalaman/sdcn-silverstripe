@@ -1,5 +1,6 @@
 <% if $Banner %>
     <div style="background-image: url('$Banner.URL')" class="sdcn-banner">
+
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -13,6 +14,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 <% end_if %>
 

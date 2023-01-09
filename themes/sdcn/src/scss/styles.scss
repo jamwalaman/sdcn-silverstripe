@@ -25,6 +25,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+a {
+    color: var(--sdcn-blue);
+}
+a {
+    transition: 0.3s;
+}
+a:hover {
+    color: var(--sdcn-black);
+}
+
 .content-main ul li {
     list-style-type: disc;
 }
@@ -36,6 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 .headerinfo p {
     margin-bottom: 0;
     padding: 1rem 0;
+}
+.headerinfo a {
+    color: #000000;
 }
 
 .navbg, .content-main {
@@ -99,6 +112,10 @@ body.SdcnContentPage .sdcn-banner h1 {
 }
 .sdcn-banner h1 {
     color: #ffffff;
+}
+
+body.HomePage .img-fluid {
+    border-radius: 3rem;
 }
 
 /* Forms */
