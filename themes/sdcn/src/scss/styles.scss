@@ -77,15 +77,15 @@ body.HomePage .silverstripe__elementalbannerblock__block__bannerblock .col {
 }
 
 /* Banner for all pages */
-body.Page .silverstripe__elementalbannerblock__block__bannerblock {
+body.SdcnContentPage {
     height: 310px;
 }
-body.Page .silverstripe__elementalbannerblock__block__bannerblock .col {
+body.SdcnContentPage .col {
     display: flex;
     align-items: center;
     height: 310px;
 }
-body.Page .sdcn-banner h1 {
+body.SdcnContentPage .sdcn-banner h1 {
     background-color: var(--sdcn-blue);
     padding: 1rem;
 }
