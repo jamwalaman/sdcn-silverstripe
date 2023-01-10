@@ -117,12 +117,20 @@ body.SdcnContentPage .sdcn-banner h1 {
     color: #ffffff;
 }
 
+/* page headers without banners images */
+.sdcn-sans-banner {
+    background-color: var(--sdcn-blue);
+}
+.sdcn-sans-banner h1 {
+    color: #ffffff;
+}
+
 body.HomePage .img-fluid {
     border-radius: 3rem;
 }
 
 body.HomePage .content-main p:last-child {
-    margin-top: 2rem;
+    margin: 2rem 0 3rem 0;
 }
 body.HomePage .content-main p:last-child a {
     background-color: var(--sdcn-black);
@@ -223,6 +231,9 @@ footer .footer-logos img.lotto-nz-logo {
 }
 
 @media (min-width: 768px) {
+    body.HomePage .content-main p:last-child {
+        margin-top: 2rem;
+    }
     ul.footer-nav {
         border-top: none;
         padding-top: 0;

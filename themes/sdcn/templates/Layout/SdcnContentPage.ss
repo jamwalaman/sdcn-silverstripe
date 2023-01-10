@@ -1,5 +1,8 @@
 <% if $Banner %>
     <div style="background-image: url('$Banner.URL')" class="sdcn-banner">
+<% else %>
+    <div class="sdcn-sans-banner">
+<% end_if %>
 
         <div class="container">
             <div class="row">
@@ -16,6 +19,5 @@
         </div>
         
     </div>
-<% end_if %>
 
 $ElementalArea
