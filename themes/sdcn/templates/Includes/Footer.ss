@@ -11,7 +11,7 @@
 					<% end_if %>
 					<% if $Children %>
 							<% with $Level(1) %>
-							<li class="subpage-title">$MenuTitle</li>
+							<li class="page-title">$MenuTitle</li>
 							<ul class="subpage-link">
 								<% loop $Children %>
 								<li><a href="$Link">$MenuTitle</a></li>

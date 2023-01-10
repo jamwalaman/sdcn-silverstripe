@@ -34,6 +34,9 @@ a {
 a:hover {
     color: var(--sdcn-black);
 }
+.content-main a {
+    font-weight: 600;
+}
 
 .content-main ul li {
     list-style-type: disc;
@@ -118,6 +121,17 @@ body.HomePage .img-fluid {
     border-radius: 3rem;
 }
 
+body.HomePage .content-main p:last-child {
+    margin-top: 2rem;
+}
+body.HomePage .content-main p:last-child a {
+    background-color: var(--sdcn-black);
+    color: #ffffff;
+    padding: 1.175em 1.75em;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
 /* Forms */
 input:invalid, textarea:invalid {
     box-shadow: none;
@@ -183,6 +197,12 @@ footer a:hover {
 ul.footer-nav {
     border-top: .1rem solid #e1e1e3;
     padding-top: 0.8rem;
+}
+ul.footer-nav a {
+    text-decoration: none;
+}
+ul.footer-nav, ul.footer-nav li {
+    list-style-type: none;
 }
 .footer-logos {
     display: flex;
