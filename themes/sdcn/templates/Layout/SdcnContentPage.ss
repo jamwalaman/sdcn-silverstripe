@@ -20,4 +20,8 @@
         
     </div>
 
-$ElementalArea
+<div class="container py-5">
+    <div class="row">
+    $ElementalArea
+    </div>
+</div>

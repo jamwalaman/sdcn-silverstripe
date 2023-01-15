@@ -81,21 +81,32 @@ a:hover {
 }
 
 /* sdcn-home-banner - for just home page */
-body.HomePage .silverstripe__elementalbannerblock__block__bannerblock {
+body.SdcnHomePage .sdcn-banner .container {
     height: 60vh;
 }
-body.HomePage .silverstripe__elementalbannerblock__block__bannerblock .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+body.SdcnHomePage .sdcn-banner .container .row {
     height: 60vh;
+    align-items: center;
 }
 
-/* Banner for all pages */
-body.SdcnContentPage {
-    height: 310px;
+/* Bordered images on home */
+body.SdcnHomePage .img-fluid {
+    border-radius: 3rem;
 }
+
+/* Buttons with black background */
+body.SdcnHomePage .content-main p:last-child {
+    margin: 2rem 0 3rem 0;
+}
+body.SdcnHomePage .content-main p:last-child a {
+    background-color: var(--sdcn-black);
+    color: #ffffff;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+/* Banner for other pages */
 body.SdcnContentPage .col {
     display: flex;
     align-items: center;
@@ -106,7 +117,6 @@ body.SdcnContentPage .sdcn-banner h1 {
     padding: 1rem;
 }
 .sdcn-banner {
-    height: 100%;
     width: 100%;
     color: #ffffff;
     background-position: center;
@@ -123,21 +133,6 @@ body.SdcnContentPage .sdcn-banner h1 {
 }
 .sdcn-sans-banner h1 {
     color: #ffffff;
-}
-
-body.HomePage .img-fluid {
-    border-radius: 3rem;
-}
-
-body.HomePage .content-main p:last-child {
-    margin: 2rem 0 3rem 0;
-}
-body.HomePage .content-main p:last-child a {
-    background-color: var(--sdcn-black);
-    color: #ffffff;
-    padding: 1.175em 1.75em;
-    border-radius: 2rem;
-    text-decoration: none;
 }
 
 /* Forms */
@@ -231,7 +226,7 @@ footer .footer-logos img.lotto-nz-logo {
 }
 
 @media (min-width: 768px) {
-    body.HomePage .content-main p:last-child {
+    body.SdcnHomePage .content-main p:last-child {
         margin-top: 2rem;
     }
     ul.footer-nav {
