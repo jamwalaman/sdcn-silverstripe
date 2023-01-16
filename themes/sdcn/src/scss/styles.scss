@@ -80,36 +80,20 @@ a:hover {
     justify-content: flex-end;
 }
 
-/* sdcn-home-banner - for just home page */
-body.SdcnHomePage .sdcn-banner .container {
-    height: 60vh;
-}
+/* Banner - for just home page */
 body.SdcnHomePage .sdcn-banner .container .row {
     height: 60vh;
     align-items: center;
 }
 
-/* Bordered images on home */
-body.SdcnHomePage .img-fluid {
-    border-radius: 3rem;
-}
 
-/* Buttons with black background */
-body.SdcnHomePage .content-main p:last-child {
-    margin: 2rem 0 3rem 0;
-}
-body.SdcnHomePage .content-main p:last-child a {
-    background-color: var(--sdcn-black);
-    color: #ffffff;
-    padding: 0.8rem 1rem;
-    border-radius: 2rem;
-    text-decoration: none;
+/* Banner with just text */
+.sdcn-sans-banner .container .row {
+    height: 250px;
+    align-items: center;
 }
 
 /* Banner for other pages */
-body.SdcnContentPage .sdcn-banner .container {
-    height: 310px;
-}
 body.SdcnContentPage .sdcn-banner .container .row {
     height: 310px;
     align-items: center;
@@ -129,6 +113,23 @@ body.SdcnContentPage .sdcn-banner h1 {
 }
 .sdcn-banner h1 {
     color: #ffffff;
+}
+
+/* Bordered images on home */
+body.SdcnHomePage .img-fluid {
+    border-radius: 3rem;
+}
+
+/* Buttons with black background */
+body.SdcnHomePage .content-main p:last-child {
+    margin: 2rem 0 3rem 0;
+}
+body.SdcnHomePage .content-main p:last-child a {
+    background-color: var(--sdcn-black);
+    color: #ffffff;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
 }
 
 /* page headers without banners images */
