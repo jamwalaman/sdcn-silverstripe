@@ -107,14 +107,18 @@ body.SdcnHomePage .content-main p:last-child a {
 }
 
 /* Banner for other pages */
-body.SdcnContentPage .col {
-    display: flex;
-    align-items: center;
+body.SdcnContentPage .sdcn-banner .container {
     height: 310px;
+}
+body.SdcnContentPage .sdcn-banner .container .row {
+    height: 310px;
+    align-items: center;
+
 }
 body.SdcnContentPage .sdcn-banner h1 {
     background-color: var(--sdcn-blue);
     padding: 1rem;
+    display: inline;
 }
 .sdcn-banner {
     width: 100%;
@@ -139,7 +143,6 @@ body.SdcnContentPage .sdcn-banner h1 {
 input:invalid, textarea:invalid {
     box-shadow: none;
 }
-body.HomePage .banner-element__call-to-action,
 input[type="submit"]:hover, .Actions .action:hover,
 .sdcn-form input[type="submit"] {
     background: var(--sdcn-black);
@@ -160,28 +163,28 @@ input[type="submit"], .Actions .action {
 }
 
 /* Only for subscribe form on home */
-body.HomePage h2 {
+body.SdcnHomePage h2 {
     text-align: center;
 }
-body.HomePage .userform {
+body.SdcnHomePage .userform {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-body.HomePage .userform .left {
+body.SdcnHomePage .userform .left {
     display: none;
 }
-body.HomePage div.field.form-step {
+body.SdcnHomePage div.field.form-step {
     display: flex;
     flex-direction: column;
 }
-body.HomePage form input.text {
+body.SdcnHomePage form input.text {
     padding: 0.7rem 1.8rem;
     font-size: 1.1rem;
     border-radius: 3rem;
     max-width: 700px;
 }
-body.HomePage .Actions .action {
+body.SdcnHomePage .Actions .action {
     padding: 0.7rem 1.8rem;
 }
 
@@ -233,17 +236,17 @@ footer .footer-logos img.lotto-nz-logo {
         border-top: none;
         padding-top: 0;
     }
-    body.HomePage .btn-toolbar {
+    body.SdcnHomePage .btn-toolbar {
         display: block;
         margin-top: 12px;
     }
-    body.HomePage .form-step div.field {
+    body.SdcnHomePage .form-step div.field {
         margin: 10px 3% 15px 0;
     }
-    body.HomePage .userform {
+    body.SdcnHomePage .userform {
         justify-content: center;
     }
-    .footer-logos, body.HomePage .userform, body.HomePage div.field.form-step {
+    .footer-logos, body.SdcnHomePage .userform, body.SdcnHomePage div.field.form-step {
         flex-direction: row;
     }
     .footer-logos img.cogs-logo {
