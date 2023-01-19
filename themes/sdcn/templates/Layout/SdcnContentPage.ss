@@ -4,7 +4,7 @@
     <div class="sdcn-sans-banner">
 <% end_if %>
 
-        <div class="container">
+        <div class="container mb-4">
             <div class="row">
                 <div class="col">
                     <h1>
@@ -20,8 +20,4 @@
         
     </div>
 
-<div class="container py-5">
-    <div class="row">
-    $ElementalArea
-    </div>
-</div>
+$ElementalArea

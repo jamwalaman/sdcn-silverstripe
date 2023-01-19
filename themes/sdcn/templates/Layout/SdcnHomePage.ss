@@ -1,4 +1,4 @@
-<div style="background-image: url('$HomeBanner.URL')" class="sdcn-banner">
+<div style="background-image: url('$HomeBanner.URL')" class="sdcn-banner mb-4">
 
     <div class="container">
         <div class="row">
@@ -10,8 +10,4 @@
 
 </div>
 
-<div class="container py-5">
-    <div class="row">
-    $ElementalArea
-    </div>
-</div>
+$ElementalArea
