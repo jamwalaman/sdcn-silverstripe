@@ -86,7 +86,6 @@ body.SdcnHomePage .sdcn-banner .container .row {
     align-items: center;
 }
 
-
 /* Banner with just text */
 .sdcn-sans-banner .container .row {
     height: 250px;
@@ -145,9 +144,28 @@ body.SdcnHomePage .content-main p:last-child a {
     border-width: 0;
     border-radius: 0;
 }
+.card-body.col-md-7.text-side {
+    align-self: center;
+}
+
 /* Features on home */
 body.SdcnHomePage .card {
     background: var(--sdcn-blue);
+    padding: 4rem 0;
+}
+.full-width-feature {
+    max-width: 100%;
+}
+.full-width-feature, .full-width-feature h2 {
+    color: #ffffff;
+}
+.full-width-feature .row.feature.last {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.full-width-feature img.img-fluid {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Forms */
