@@ -4,7 +4,7 @@
     <div class="sdcn-sans-banner">
 <% end_if %>
 
-        <div class="container mb-5">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <h1>
@@ -19,5 +19,9 @@
         </div>
         
     </div>
+
+<div class="breadcrumb py-3">
+    <div class="container"> $Breadcrumbs </div>
+</div>
 
 $ElementalArea

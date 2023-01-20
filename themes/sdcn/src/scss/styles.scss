@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--sdcn-blue);
 }
-a, .sdcn-form input[type="submit"] {
+a, .sdcn-form input[type="submit"], .breadcrumb a {
     transition: 0.3s;
 }
 a:hover {
@@ -116,6 +116,21 @@ body.SdcnContentPage .sdcn-banner h1 {
 }
 .sdcn-banner h1 {
     color: #ffffff;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background-color: #dcebef;
+}
+.breadcrumb a {
+    color: #000000;
+    font-weight: 400;
+}
+.breadcrumb a:hover {
+    color: var(--sdcn-black);
+}
+.breadcrumb .container {
+    display: flex;
 }
 
 /* Bordered images on home */
