@@ -4,7 +4,7 @@
     <div class="sdcn-sans-banner">
 <% end_if %>
 
-        <div class="container mb-4">
+        <div class="container mb-5">
             <div class="row">
                 <div class="col">
                     <h1>

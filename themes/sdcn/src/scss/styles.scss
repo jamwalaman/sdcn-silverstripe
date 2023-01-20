@@ -144,8 +144,14 @@ body.SdcnHomePage .content-main p:last-child a {
     border-width: 0;
     border-radius: 0;
 }
-.card-body.col-md-7.text-side {
-    align-self: center;
+.element__features__list .card:nth-child(2n+0) {
+    margin: 3rem 0;
+}
+.element__features__list .card .feature {
+    align-items: center;
+}
+.element__features__list .card:nth-child(odd) .feature.alternating {
+    flex-direction: column-reverse;
 }
 
 /* Features on home */
@@ -260,6 +266,9 @@ footer .footer-logos img.lotto-nz-logo {
 @media (min-width: 768px) {
     body.SdcnHomePage .content-main p:last-child {
         margin-top: 2rem;
+    }
+    .element__features__list .card:nth-child(odd) .feature.alternating {
+        flex-direction: row;
     }
     ul.footer-nav {
         border-top: none;

@@ -1,4 +1,4 @@
-<div style="background-image: url('$HomeBanner.URL')" class="sdcn-banner mb-4">
+<div style="background-image: url('$HomeBanner.URL')" class="sdcn-banner mb-5">
 
     <div class="container">
         <div class="row">
