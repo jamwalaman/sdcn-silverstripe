@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--sdcn-blue);
 }
-a {
+a, .sdcn-form input[type="submit"] {
     transition: 0.3s;
 }
 a:hover {
@@ -78,6 +78,10 @@ a:hover {
 .navbar-nav {
     width: 100%;
     justify-content: flex-end;
+}
+
+body.SdcnHomePage h2 {
+    text-transform: uppercase;
 }
 
 /* Banner - for just home page */
@@ -130,6 +134,9 @@ body.SdcnHomePage .content-main p:last-child a {
     border-radius: 2rem;
     text-decoration: none;
 }
+body.SdcnHomePage .content-main p:last-child a:hover {
+    background-color: #000000;
+}
 
 /* page headers without banners images */
 .sdcn-sans-banner {
@@ -179,9 +186,20 @@ input:invalid, textarea:invalid {
     box-shadow: none;
 }
 input[type="submit"]:hover, .Actions .action:hover,
-.sdcn-form input[type="submit"] {
+.sdcn-form input[type="submit"], a.btn {
     background: var(--sdcn-black);
     border-radius: 2rem;
+}
+a.btn {
+    padding: .7rem 1.8rem;
+    text-transform: none;
+    transform: none;
+}
+a.btn:after {
+    content: none;
+}
+a.btn:hover, :not(.btn-check)+.btn:active, .sdcn-form input[type="submit"]:hover {
+    background: #000000;
 }
 .sdcn-form .requiredField.error {
     border-color: #e80000;
