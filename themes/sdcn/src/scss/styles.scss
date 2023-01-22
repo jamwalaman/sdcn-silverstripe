@@ -72,14 +72,14 @@ a:hover {
 }
 .content-main {
     position: relative;
-    top: 160px;
+    top: 136px;
 }
 .header, .content-main {
     background-color: #ffffff;
 }
 
 .svg-logo {
-    width: 6rem;
+    width: 4.5rem;
 }
 
 .navbar {
@@ -108,6 +108,13 @@ a:hover {
 .dropdown-item:hover, .dropdown-item:focus {
     color: #ffffff;
     background-color: #a8cdd7;
+}
+/* Hamburger icon */
+.navbar-toggler, .navbar-toggler:hover {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 body.SdcnHomePage h2 {
@@ -328,6 +335,12 @@ footer .footer-logos img.lotto-nz-logo {
 }
 
 @media (min-width: 992px) {
+    .svg-logo {
+        width: 6rem;
+    }
+    .header {
+        height: 106px;
+    }
     .nav-link {
         height: 106px;
         display: flex;
@@ -342,6 +355,9 @@ footer .footer-logos img.lotto-nz-logo {
     }
     .dropdown-item {
         padding: 0.4rem 1.5rem;
+    }
+    .content-main {
+        top: 160px;
     }
 }
 
