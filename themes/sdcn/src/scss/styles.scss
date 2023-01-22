@@ -92,10 +92,6 @@ a:hover {
 .nav-link:hover, .nav-link.active:hover {
     color: #000000;
 }
-.nav-link.show {
-    color: #ffffff;
-    background-color: var(--sdcn-blue);
-}
 .navbar-nav {
     width: 100%;
     justify-content: flex-end;
@@ -345,6 +341,10 @@ footer .footer-logos img.lotto-nz-logo {
         height: 106px;
         display: flex;
         align-items: center;
+    }
+    .nav-link.show {
+        color: #ffffff;
+        background-color: var(--sdcn-blue);
     }
     .nav-item:not(:last-of-type) {
         margin-right: 1rem;
