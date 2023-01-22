@@ -30,7 +30,7 @@ namespace {
             // You can include any CSS or JS required by your project here.
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
             Requirements::css('themes/simple/css/form.css');
-            Requirements::css('themes/sdcn/dist/main.67448a01c0f2b48ae6a7.css');
+            Requirements::css('themes/sdcn/dist/main.4a1a4e779b29b72170ac.css');
 
             Requirements::javascript('themes/sdcn/dist/main-dist-0.js');
         }
