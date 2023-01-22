@@ -1,4 +1,4 @@
-<div class="navbg">
+<div class="header">
   <div class="container">
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">

@@ -2,8 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
 }
 
 :root {
@@ -42,9 +47,15 @@ a:hover {
     list-style-type: disc;
 }
 
+.header, .headerinfo {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
 .headerinfo {
     text-align: center;
     background-color: #dcebef;
+    width: 100%;
 }
 .headerinfo p {
     margin-bottom: 0;
@@ -53,31 +64,42 @@ a:hover {
 .headerinfo a {
     color: #000000;
 }
-
-.navbg, .content-main {
-    background-color: #ffffff;
-}
-
 .header {
-    background-color: var(--sdcn-blue);
+    top: 54px;
+    box-shadow: 0px 7px 9px -9px rgb(0 0 0 / 100%);
+    -webkit-box-shadow: 0px 7px 9px -9px rgb(0 0 0 / 100%);
+    -moz-box-shadow: 0px 7px 9px -9px rgb(0 0 0 / 100%);
 }
-
-.header .primary li a {
-    color: #082e54;
+.content-main {
+    position: relative;
+    top: 160px;
+}
+.header, .content-main {
+    background-color: #ffffff;
 }
 
 .svg-logo {
     width: 6rem;
-    margin-bottom: 1rem;;
 }
-
-.nav-link {
-    color: #082e54;
+.navbar {
+    padding: 0;
 }
-
+.nav-link, .dropdown-item {
+    color: #0d4d8c;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #ffffff;
+    background-color: var(--sdcn-black);
+}
 .navbar-nav {
     width: 100%;
     justify-content: flex-end;
+}
+.navbar-nav .dropdown-menu {
+    border-radius: 0;
+    border-color: transparent;
+    background-color: #dcebef;
 }
 
 body.SdcnHomePage h2 {
@@ -274,6 +296,7 @@ ul.footer-nav {
 }
 ul.footer-nav a {
     text-decoration: none;
+    font-weight: 400;
 }
 ul.footer-nav, ul.footer-nav li {
     list-style-type: none;
@@ -294,6 +317,17 @@ ul.footer-nav, ul.footer-nav li {
 }
 footer .footer-logos img.lotto-nz-logo {
     width: 200px;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        height: 106px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-item:not(:last-of-type) {
+        margin-right: 1rem;
+    }
 }
 
 @media (min-width: 768px) {

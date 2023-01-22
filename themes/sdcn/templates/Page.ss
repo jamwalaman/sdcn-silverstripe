@@ -24,8 +24,8 @@
 <% include HeaderNav %>
 <div class="content-main">
 	$Layout
+	<% include Footer %>
 </div>
-<% include Footer %>
 
 </body>
 </html>
