@@ -138,7 +138,6 @@ body.SdcnContentPage .sdcn-banner .container .row {
 body.SdcnContentPage .sdcn-banner h1 {
     background-color: var(--sdcn-blue);
     padding: 1rem;
-    display: inline;
 }
 .sdcn-banner {
     width: 100%;
@@ -362,6 +361,9 @@ footer .footer-logos img.lotto-nz-logo {
 }
 
 @media (min-width: 768px) {
+    body.SdcnContentPage .sdcn-banner h1 {
+        display: inline;
+    }
     body.SdcnHomePage .content-main p:last-child {
         margin-top: 2rem;
     }
