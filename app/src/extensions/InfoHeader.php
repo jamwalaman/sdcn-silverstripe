@@ -12,8 +12,6 @@ class InfoHeader extends DataExtension
 
     public function updateCMSFields(FieldList $fields) 
     {
-        $fields->addFieldToTab("Root.Main", 
-            new HTMLEditorField("HeaderContent", "Header Info Content")
-        );
+        $fields->addFieldToTab("Root.Main", new HTMLEditorField("HeaderContent", "Header Info Content"));
     }
 }

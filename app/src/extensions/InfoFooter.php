@@ -12,8 +12,6 @@ class InfoFooter extends DataExtension
 
     public function updateCMSFields(FieldList $fields) 
     {
-        $fields->addFieldToTab("Root.Main", 
-            new HTMLEditorField("FooterContent", "Footer Content")
-        );
+        $fields->addFieldToTab("Root.Main", new HTMLEditorField("FooterContent", "Footer Content"));
     }
 }
