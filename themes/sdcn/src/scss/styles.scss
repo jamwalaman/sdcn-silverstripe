@@ -261,8 +261,11 @@ a.btn:hover, :not(.btn-check)+.btn:active, .sdcn-form input[type="submit"]:hover
 input[type="submit"], .Actions .action {
     font-size: 1rem;
 }
-body.SdcnContentPage form input.text {
+body.SdcnContentPage form input.text, body.SdcnContentPage form textarea {
     border-radius: 3rem;
+}
+body.SdcnContentPage form textarea {
+    padding: 16px 15px;
 }
 
 /* Only for subscribe form on home */
